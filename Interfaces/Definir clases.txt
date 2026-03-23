@@ -1,0 +1,3 @@
+Para las clases se usan algunas reglas:
+1. Asignando clases a iconos que se usen: "I<titulo del icono o a lo que hace referencia>".
+Ejemplo="Ifacebook"=Es un icono de Facebook.

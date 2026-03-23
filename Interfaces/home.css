@@ -1,0 +1,71 @@
+body{
+    margin: 50px 30px;
+}
+
+.raleway-400 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.navegacion-secciones,
+.titulo-pagina,
+.navegacion-info,
+.navegacion-redes, 
+.carrito {
+    display: flex;
+    align-items: center;
+}
+
+/* Acomodando texto */
+.navegacion-secciones{
+    justify-content: left;
+}
+.navegacion-info{
+    justify-content: right;
+}
+
+/* Quitarle la línea de abajo a los enlaces, cuando uno sea seleccionado se modifica */
+#focus-tienda,
+#focus-categorias,
+#focus-acercade,
+#focus-contacto,
+.iniciar-sesion,
+.carrito-de-compras,
+.titulo-pagina,
+.carrito {
+    text-decoration: none;
+    /* Además de añadir propiedas individualmente */
+    margin: 5px 10px;
+    color: #000;
+}
+
+/* Título de la página */
+.titulo-pagina{
+    height: 50px;
+    justify-content: center;
+}
+
+.Ifacebook,
+.Iinstagram,
+.Icarrito {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin: 0 5px;
+}
+
+.Ifacebook{
+    background-image: url("/icons/facebook.png");
+}
+
+.Iinstagram{
+    background-image: url("/icons/instagram.png");
+}
