@@ -1,5 +1,8 @@
 body{
     margin: 50px 30px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
 .raleway-400 {
@@ -13,6 +16,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .navegacion-secciones,
@@ -37,6 +41,10 @@ header {
 #focus-categorias,
 #focus-acercade,
 #focus-contacto,
+#focus-todo,
+#focus-ofertas,
+#focus-bordados,
+#focus-pinturas,
 .iniciar-sesion,
 .carrito-de-compras,
 .titulo-pagina,
@@ -68,4 +76,23 @@ header {
 
 .Iinstagram{
     background-image: url("/icons/instagram.png");
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-principal{
+    display: flex;
+    align-items: center;
+}
+
+.nav-principal a {
+    padding: 0px 20px;
+}
+
+.nav-principal span {
+    color: #0005;
 }
